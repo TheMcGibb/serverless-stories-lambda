@@ -1,0 +1,9 @@
+git clone https://github.com/auth0/extend.git
+cd extend/samples/zerocrm
+npm i
+cat > .env <<EOF
+MASTER_WEBTASK_TOKEN={master_webtask_token}
+HOST_URL={host_url}
+WEBTASK_CONTAINER={webtask_container}
+ZEROCRM_TENANT={webtask_container}
+EOF
